@@ -1,0 +1,16 @@
+2026-05-20 10:49:43,915 - INFO - New question received: How many customers are from USA?
+2026-05-20 10:49:43,915 - INFO - Step 1: Generating SQL for: How many customers are from USA?
+2026-05-20 10:49:44,339 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-20 10:49:44,359 - INFO - Generated SQL: SELECT COUNT("customerNumber") FROM customers WHERE "country" = 'USA'
+2026-05-20 10:49:44,360 - INFO - Execution attempt 1 for SQL: SELECT COUNT("customerNumber") FROM customers WHERE "country" = 'USA'
+2026-05-20 10:49:44,386 - INFO - Execution successful: 1 rows in 0.026s
+2026-05-20 10:49:44,729 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-20 10:49:44,729 - INFO - Summary generated: There are 36 customers from the USA.
+2026-05-20 10:56:58,650 - INFO - New question received: How many customers are from USA?
+2026-05-20 10:56:58,650 - INFO - Step 1: Generating SQL for: How many customers are from USA?
+2026-05-20 10:56:59,080 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-20 10:56:59,093 - INFO - Generated SQL: SELECT COUNT("customerNumber") FROM customers WHERE "country" = 'USA'
+2026-05-20 10:56:59,093 - INFO - Execution attempt 1 for SQL: SELECT COUNT("customerNumber") FROM customers WHERE "country" = 'USA'
+2026-05-20 10:56:59,119 - INFO - Execution successful: 1 rows in 0.025s
+2026-05-20 10:56:59,365 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-20 10:56:59,366 - INFO - Summary generated: There are 36 customers from the USA.
