@@ -51,3 +51,16 @@ Then open:
 ---
 
 ## Agent Flow
+Question received
+↓
+Generate SQL using Groq AI
+↓
+Validate SQL safety
+↓
+Execute on PostgreSQL
+↓
+If fails → fix and retry (max 3 times)
+↓
+Generate natural language summary
+↓
+Return structured response
